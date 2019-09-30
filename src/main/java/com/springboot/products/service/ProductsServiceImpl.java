@@ -11,7 +11,6 @@ import com.springboot.products.repository.ProductsRepository;
 @Service
 public class ProductsServiceImpl implements ProductsService{
 	
-	@Autowired
 	private ModelMapper mapper;
 	
 	@Autowired
